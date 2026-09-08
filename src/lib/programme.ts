@@ -61,9 +61,9 @@ export interface Cluster {
   seats: number;
   accent: string;
   tint: string;
-  /** Illustrated cluster scene used on cards and thumbnails. */
+  /** Cluster photograph used on cards and thumbnails. */
   art: string;
-  /** Wide version of the same scene, composed to crop well in a page header. */
+  /** Image behind the cluster page header. Same 16:9 source as `art`. */
   banner: string;
   /** Photograph of the cluster, used where a real image suits better. */
   photo: string;
@@ -93,8 +93,8 @@ export const CLUSTERS: Cluster[] = [
     seats: 25,
     accent: "#db000e",
     tint: "#fff1f1",
-    art: "/brand/clusters/creative-craft.svg",
-    banner: "/brand/clusters/creative-craft-banner.svg",
+    art: "/brand/clusters/creative-craft.webp",
+    banner: "/brand/clusters/creative-craft.webp",
     photo: "/brand/founder-craft.webp",
     icon: "craft",
   },
@@ -119,8 +119,8 @@ export const CLUSTERS: Cluster[] = [
     seats: 25,
     accent: "#75990f",
     tint: "#f6faec",
-    art: "/brand/clusters/agric.svg",
-    banner: "/brand/clusters/agric-banner.svg",
+    art: "/brand/clusters/agric.webp",
+    banner: "/brand/clusters/agric.webp",
     photo: "/brand/founder-agric.webp",
     icon: "agric",
   },
@@ -145,8 +145,8 @@ export const CLUSTERS: Cluster[] = [
     seats: 25,
     accent: "#0e7490",
     tint: "#effafc",
-    art: "/brand/clusters/fisheries.svg",
-    banner: "/brand/clusters/fisheries-banner.svg",
+    art: "/brand/clusters/fisheries.webp",
+    banner: "/brand/clusters/fisheries.webp",
     photo: "/brand/photo-shama-coast.webp",
     icon: "fish",
   },
@@ -171,8 +171,8 @@ export const CLUSTERS: Cluster[] = [
     seats: 25,
     accent: "#4f46e5",
     tint: "#f2f2fe",
-    art: "/brand/clusters/tech.svg",
-    banner: "/brand/clusters/tech-banner.svg",
+    art: "/brand/clusters/tech.webp",
+    banner: "/brand/clusters/tech.webp",
     photo: "/brand/photo-branding.webp",
     icon: "tech",
   },
