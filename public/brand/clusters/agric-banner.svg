@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 560" fill="none" role="img" aria-label="A farmer with a hoe beside crop rows and a basket of produce">
+  <defs>
+    <linearGradient id="abbg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eaf3d4"/><stop offset="1" stop-color="#b2d161"/></linearGradient>
+    <linearGradient id="absoil" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#75990f"/><stop offset="1" stop-color="#46590f"/></linearGradient>
+    <clipPath id="abclip"><rect width="1600" height="560"/></clipPath>
+  </defs>
+  <g clip-path="url(#abclip)">
+    <rect width="1600" height="560" fill="url(#abbg)"/>
+    <circle cx="1300" cy="126" r="72" fill="#f7c948"/>
+    <circle cx="1300" cy="126" r="108" fill="#f7c948" opacity="0.22"/>
+    <path d="M0 268 q220 -60 440 -8 t460 -16 q260 -48 700 14 V330 H0Z" fill="#8ab61a" opacity="0.55"/>
+    <path d="M0 320 H1600 V560 H0 Z" fill="url(#absoil)"/>
+    <g stroke="#35440c" stroke-width="5" opacity="0.3" stroke-linecap="round">
+      <path d="M-20 372 q800 -26 1640 0"/><path d="M-20 436 q800 -30 1640 0"/><path d="M-20 504 q800 -34 1640 0"/>
+    </g>
+    <g fill="#cfe94f">
+      <g transform="translate(620 356)"><path d="M0 0 q-24 -34 -4 -60 26 16 22 60Z"/><path d="M0 0 q24 -34 4 -60 -26 16 -22 60Z"/></g>
+      <g transform="translate(760 364)"><path d="M0 0 q-24 -34 -4 -60 26 16 22 60Z"/><path d="M0 0 q24 -34 4 -60 -26 16 -22 60Z"/></g>
+      <g transform="translate(1420 360)"><path d="M0 0 q-24 -34 -4 -60 26 16 22 60Z"/><path d="M0 0 q24 -34 4 -60 -26 16 -22 60Z"/></g>
+      <g transform="translate(1520 346)"><path d="M0 0 q-24 -34 -4 -60 26 16 22 60Z"/><path d="M0 0 q24 -34 4 -60 -26 16 -22 60Z"/></g>
+    </g>
+    <g transform="translate(1010 214)">
+      <path d="M92 -6 L34 168" stroke="#8a4a22" stroke-width="9" stroke-linecap="round"/>
+      <path d="M84 -14 q34 -6 44 20 l-40 12 Z" fill="#5f6b74"/>
+      <path d="M-34 62 q34 -22 68 0 l12 120 h-92 Z" fill="#587118"/>
+      <path d="M28 82 L86 30" stroke="#5b3a22" stroke-width="15" stroke-linecap="round"/>
+      <path d="M-30 84 L-52 140" stroke="#5b3a22" stroke-width="15" stroke-linecap="round"/>
+      <circle cx="0" cy="30" r="27" fill="#5b3a22"/>
+      <path d="M-52 22 q52 -34 104 0 -52 16 -104 0Z" fill="#f7c948"/>
+      <path d="M-27 20 q27 -40 54 0 Z" fill="#e0ab2b"/>
+      <path d="M-18 182 v70" stroke="#0f1126" stroke-width="16" stroke-linecap="round"/>
+      <path d="M18 182 v70" stroke="#0f1126" stroke-width="16" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(1230 452)">
+      <g fill="#db000e"><circle cx="-24" cy="-26" r="17"/><circle cx="6" cy="-34" r="17"/></g>
+      <circle cx="34" cy="-26" r="17" fill="#f7c948"/><circle cx="-4" cy="-14" r="16" fill="#8ab61a"/>
+      <path d="M-52 -18 H62 L48 44 H-38 Z" fill="#a9703c"/>
+      <path d="M-52 -18 H62" stroke="#7c4c22" stroke-width="9" stroke-linecap="round"/>
+      <g stroke="#7c4c22" stroke-width="4" opacity="0.7"><path d="M-40 0 H50"/><path d="M-34 20 H44"/></g>
+    </g>
+  </g>
+</svg>

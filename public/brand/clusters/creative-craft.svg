@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" role="img" aria-label="A tailor's bench with patterned cloth, thread, scissors and beads">
+  <defs>
+    <linearGradient id="cbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff6e8"/><stop offset="1" stop-color="#ffd9c2"/>
+    </linearGradient>
+    <clipPath id="cclip"><rect width="800" height="500"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#cclip)">
+    <rect width="800" height="500" fill="url(#cbg)"/>
+    <circle cx="672" cy="96" r="150" fill="#db000e" opacity="0.08"/>
+
+    <!-- kente-style cloth bolt -->
+    <g transform="rotate(-9 120 250)">
+      <rect x="26" y="150" width="300" height="212" rx="14" fill="#db000e"/>
+      <g>
+        <rect x="26" y="176" width="300" height="16" fill="#f7c948"/>
+        <rect x="26" y="216" width="300" height="9" fill="#0f1126"/>
+        <rect x="26" y="244" width="300" height="20" fill="#8ab61a"/>
+        <rect x="26" y="288" width="300" height="9" fill="#f7c948"/>
+        <rect x="26" y="312" width="300" height="16" fill="#0f1126"/>
+      </g>
+      <g fill="#fff6e8" opacity="0.9">
+        <rect x="60" y="196" width="14" height="14" transform="rotate(45 67 203)"/>
+        <rect x="140" y="196" width="14" height="14" transform="rotate(45 147 203)"/>
+        <rect x="220" y="196" width="14" height="14" transform="rotate(45 227 203)"/>
+        <rect x="100" y="270" width="14" height="14" transform="rotate(45 107 277)"/>
+        <rect x="180" y="270" width="14" height="14" transform="rotate(45 187 277)"/>
+        <rect x="260" y="270" width="14" height="14" transform="rotate(45 267 277)"/>
+      </g>
+      <rect x="26" y="150" width="300" height="212" rx="14" fill="none" stroke="#0f1126" stroke-width="5" opacity="0.25"/>
+    </g>
+
+    <!-- thread spool -->
+    <g transform="translate(392 300)">
+      <rect x="-26" y="-70" width="52" height="140" rx="8" fill="#0f1126"/>
+      <rect x="-38" y="-82" width="76" height="18" rx="6" fill="#587118"/>
+      <rect x="-38" y="64" width="76" height="18" rx="6" fill="#587118"/>
+      <g stroke="#8ab61a" stroke-width="6" opacity="0.9">
+        <path d="M-26 -46 H26"/><path d="M-26 -22 H26"/><path d="M-26 2 H26"/><path d="M-26 26 H26"/><path d="M-26 50 H26"/>
+      </g>
+    </g>
+    <path d="M418 236 q90 -70 176 -14 t120 -18" stroke="#8ab61a" stroke-width="6" stroke-linecap="round" fill="none"/>
+
+    <!-- needle -->
+    <g transform="rotate(28 640 210)">
+      <rect x="560" y="204" width="180" height="7" rx="3.5" fill="#0f1126"/>
+      <circle cx="566" cy="207" r="9" fill="none" stroke="#0f1126" stroke-width="5"/>
+    </g>
+
+    <!-- scissors -->
+    <g transform="translate(548 366) rotate(-16)" stroke="#0f1126" stroke-width="10" stroke-linecap="round" fill="none">
+      <path d="M0 0 L112 -56"/><path d="M0 -56 L112 0"/>
+      <circle cx="-14" cy="6" r="17"/><circle cx="-14" cy="-62" r="17"/>
+    </g>
+
+    <!-- beads -->
+    <g transform="translate(300 424)">
+      <path d="M0 0 q90 62 180 0" stroke="#0f1126" stroke-width="3" fill="none" opacity="0.5"/>
+      <g fill="#db000e">
+        <circle cx="12" cy="12" r="11"/><circle cx="52" cy="34" r="11" fill="#f7c948"/>
+        <circle cx="92" cy="42" r="11" fill="#8ab61a"/><circle cx="132" cy="32" r="11" fill="#0f1126"/>
+        <circle cx="170" cy="10" r="11"/>
+      </g>
+    </g>
+  </g>
+</svg>

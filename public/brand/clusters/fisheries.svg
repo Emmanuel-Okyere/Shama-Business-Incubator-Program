@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" role="img" aria-label="A fishing canoe on the sea at dawn with fish below the surface">
+  <defs>
+    <linearGradient id="fsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b3b52"/><stop offset="0.55" stop-color="#0e7490"/><stop offset="1" stop-color="#1fa5b8"/>
+    </linearGradient>
+    <linearGradient id="fsea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d6b86"/><stop offset="1" stop-color="#06283a"/>
+    </linearGradient>
+    <clipPath id="fclip"><rect width="800" height="500"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#fclip)">
+    <rect width="800" height="500" fill="url(#fsky)"/>
+
+    <!-- sun -->
+    <circle cx="620" cy="140" r="62" fill="#cfe94f" opacity="0.95"/>
+    <circle cx="620" cy="140" r="92" fill="#cfe94f" opacity="0.16"/>
+
+    <!-- headland -->
+    <path d="M0 250 L110 206 L190 236 L268 200 L340 244 L340 300 L0 300 Z" fill="#062a3c" opacity="0.75"/>
+
+    <!-- sea -->
+    <path d="M0 268 H800 V500 H0 Z" fill="url(#fsea)"/>
+
+    <!-- sun trail -->
+    <path d="M596 268 h48 l34 232 h-116 Z" fill="#cfe94f" opacity="0.13"/>
+
+    <!-- swell lines -->
+    <g stroke="#8ab61a" stroke-width="4" stroke-linecap="round" opacity="0.5">
+      <path d="M40 306 q34 -14 68 0 t68 0"/>
+      <path d="M470 300 q34 -14 68 0 t68 0"/>
+      <path d="M120 346 q40 -16 80 0 t80 0"/>
+      <path d="M560 356 q40 -16 80 0 t80 0"/>
+    </g>
+
+    <!-- fish under the surface -->
+    <g fill="#cfe94f">
+      <g opacity="0.92" transform="translate(150 404)">
+        <path d="M0 0 q34 -25 74 0 -40 25 -74 0Z"/><path d="M74 0 l24 -14 v28Z"/>
+        <circle cx="20" cy="-5" r="3.4" fill="#06283a"/>
+      </g>
+      <g opacity="0.72" transform="translate(262 452) scale(0.8)">
+        <path d="M0 0 q34 -25 74 0 -40 25 -74 0Z"/><path d="M74 0 l24 -14 v28Z"/>
+        <circle cx="20" cy="-5" r="3.4" fill="#06283a"/>
+      </g>
+      <g opacity="0.6" transform="translate(596 424) scale(0.9)">
+        <path d="M0 0 q34 -25 74 0 -40 25 -74 0Z"/><path d="M74 0 l24 -14 v28Z"/>
+        <circle cx="20" cy="-5" r="3.4" fill="#06283a"/>
+      </g>
+    </g>
+
+    <!-- canoe -->
+    <g transform="translate(300 250)">
+      <!-- net between poles -->
+      <g stroke="#e9f5c9" stroke-width="2" opacity="0.5">
+        <path d="M-6 -6 L96 -58"/><path d="M8 12 L110 -40"/>
+        <path d="M2 -18 L18 20"/><path d="M32 -34 L48 6"/><path d="M62 -50 L78 -10"/>
+      </g>
+      <!-- mast + sail -->
+      <path d="M118 -156 V22" stroke="#3a2313" stroke-width="7" stroke-linecap="round"/>
+      <path d="M122 -148 L196 12 H122 Z" fill="#f4f1e6"/>
+      <path d="M114 -148 L52 12 h62 Z" fill="#e2ddcb"/>
+      <!-- figure -->
+      <g transform="translate(60 -46)">
+        <circle cx="0" cy="0" r="15" fill="#5b3a22"/>
+        <path d="M-16 18 q16 -12 32 0 l6 44 h-44 Z" fill="#0f1126"/>
+        <path d="M14 26 l40 -30" stroke="#5b3a22" stroke-width="9" stroke-linecap="round"/>
+      </g>
+      <!-- hull -->
+      <path d="M-52 20 H236 L196 92 Q120 112 44 92 Z" fill="#8a4a22"/>
+      <path d="M-52 20 H236 l-12 22 H-38 Z" fill="#b3653a"/>
+      <path d="M20 46 H176" stroke="#f4f1e6" stroke-width="7" stroke-linecap="round" opacity="0.85"/>
+    </g>
+
+    <!-- foam -->
+    <g fill="#e9f5c9" opacity="0.28">
+      <ellipse cx="420" cy="352" rx="150" ry="12"/>
+      <ellipse cx="330" cy="368" rx="90" ry="8"/>
+    </g>
+  </g>
+</svg>

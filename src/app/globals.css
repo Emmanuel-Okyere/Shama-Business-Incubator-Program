@@ -1,0 +1,134 @@
+@import "tailwindcss";
+
+/* ------------------------------------------------------------------
+   Shama Business Incubator — design tokens
+   Palette lifted directly from the programme deck
+   (SHAMA BUSINESS INCUBATOR-5.pdf): lime #8AB61A, olive #587118,
+   soft lime #B2D161 / #CEDFA1, cream #FFEACE, ink #0F1126,
+   Emelia Arthur red #DB000E.
+   ------------------------------------------------------------------ */
+
+@theme {
+  --color-lime-50: #f6faec;
+  --color-lime-100: #eaf3d4;
+  --color-lime-200: #cedfa1;
+  --color-lime-300: #b2d161;
+  --color-lime-400: #9cc536;
+  --color-lime-500: #8ab61a;
+  --color-lime-600: #75990f;
+  --color-lime-700: #587118;
+  --color-lime-800: #46590f;
+  --color-lime-900: #35440c;
+
+  --color-cream-50: #fffaf2;
+  --color-cream-100: #ffeace;
+  --color-cream-200: #fbd9a9;
+
+  --color-ink-500: #3d4054;
+  --color-ink-700: #1e2033;
+  --color-ink-900: #0f1126;
+  --color-ink-950: #080a18;
+
+  --color-brandred: #db000e;
+
+  --font-display: var(--font-ubuntu), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-public-sans), ui-sans-serif, system-ui, sans-serif;
+
+  --radius-brand: 0.875rem;
+
+  --shadow-lift: 0 1px 2px rgb(15 17 38 / 0.04), 0 12px 32px -12px rgb(15 17 38 / 0.16);
+  --shadow-card: 0 1px 2px rgb(15 17 38 / 0.05), 0 24px 48px -24px rgb(15 17 38 / 0.22);
+
+  --animate-marquee: marquee 42s linear infinite;
+  --animate-rise: rise 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(18px); }
+    to { opacity: 1; transform: none; }
+  }
+}
+
+@layer base {
+  * {
+    border-color: --alpha(var(--color-ink-900) / 10%);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    background: #ffffff;
+    color: var(--color-ink-900);
+    font-family: var(--font-sans);
+    font-feature-settings: "cv02", "cv03", "cv04";
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    letter-spacing: -0.022em;
+    text-wrap: balance;
+  }
+
+  p { text-wrap: pretty; }
+
+  ::selection {
+    background: var(--color-lime-300);
+    color: var(--color-ink-950);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-lime-600);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  input, select, textarea { font-family: inherit; }
+}
+
+@layer components {
+  /* The deck's signature: a lime title block held inside cream corner
+     brackets (see "Program Structure", p.4). Reused across the site. */
+  .bracket-frame {
+    position: relative;
+  }
+  .bracket-frame::before,
+  .bracket-frame::after {
+    content: "";
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 3px solid var(--color-cream-100);
+    pointer-events: none;
+  }
+  .bracket-frame::before {
+    top: -0.55rem; left: -0.55rem;
+    border-right: 0; border-bottom: 0;
+  }
+  .bracket-frame::after {
+    bottom: -0.55rem; right: -0.55rem;
+    border-left: 0; border-top: 0;
+  }
+
+  .grain {
+    background-image: radial-gradient(circle at 1px 1px, rgb(15 17 38 / 0.055) 1px, transparent 0);
+    background-size: 18px 18px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

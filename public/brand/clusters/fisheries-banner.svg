@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 560" fill="none" role="img" aria-label="A fishing canoe on the sea at dawn with a catch below the surface">
+  <defs>
+    <linearGradient id="fbsky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0b3b52"/><stop offset="0.6" stop-color="#0e7490"/><stop offset="1" stop-color="#1fa5b8"/></linearGradient>
+    <linearGradient id="fbsea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d6b86"/><stop offset="1" stop-color="#06283a"/></linearGradient>
+    <clipPath id="fbclip"><rect width="1600" height="560"/></clipPath>
+  </defs>
+  <g clip-path="url(#fbclip)">
+    <rect width="1600" height="560" fill="url(#fbsky)"/>
+    <circle cx="1230" cy="150" r="70" fill="#cfe94f" opacity="0.95"/>
+    <circle cx="1230" cy="150" r="108" fill="#cfe94f" opacity="0.16"/>
+    <path d="M0 268 L150 214 L260 250 L370 206 L470 254 L470 320 L0 320 Z" fill="#062a3c" opacity="0.7"/>
+    <path d="M0 300 H1600 V560 H0 Z" fill="url(#fbsea)"/>
+    <path d="M1202 300 h56 l44 260 h-144 Z" fill="#cfe94f" opacity="0.12"/>
+    <g stroke="#8ab61a" stroke-width="4" stroke-linecap="round" opacity="0.45">
+      <path d="M700 344 q40 -16 80 0 t80 0"/><path d="M1180 336 q40 -16 80 0 t80 0"/>
+      <path d="M840 404 q44 -18 88 0 t88 0"/><path d="M1300 424 q44 -18 88 0 t88 0"/>
+      <path d="M620 470 q44 -18 88 0 t88 0"/>
+    </g>
+    <g fill="#cfe94f">
+      <g opacity="0.9" transform="translate(880 470)"><path d="M0 0 q34 -25 74 0 -40 25 -74 0Z"/><path d="M74 0 l24 -14 v28Z"/><circle cx="20" cy="-5" r="3.4" fill="#06283a"/></g>
+      <g opacity="0.72" transform="translate(1080 512) scale(0.85)"><path d="M0 0 q34 -25 74 0 -40 25 -74 0Z"/><path d="M74 0 l24 -14 v28Z"/><circle cx="20" cy="-5" r="3.4" fill="#06283a"/></g>
+      <g opacity="0.6" transform="translate(1330 468) scale(0.95)"><path d="M0 0 q34 -25 74 0 -40 25 -74 0Z"/><path d="M74 0 l24 -14 v28Z"/><circle cx="20" cy="-5" r="3.4" fill="#06283a"/></g>
+      <g opacity="0.5" transform="translate(700 520) scale(0.75)"><path d="M0 0 q34 -25 74 0 -40 25 -74 0Z"/><path d="M74 0 l24 -14 v28Z"/><circle cx="20" cy="-5" r="3.4" fill="#06283a"/></g>
+    </g>
+    <g transform="translate(880 262)">
+      <g stroke="#e9f5c9" stroke-width="2" opacity="0.45">
+        <path d="M-6 -6 L96 -58"/><path d="M8 12 L110 -40"/><path d="M2 -18 L18 20"/><path d="M32 -34 L48 6"/><path d="M62 -50 L78 -10"/>
+      </g>
+      <path d="M118 -166 V22" stroke="#3a2313" stroke-width="7" stroke-linecap="round"/>
+      <path d="M122 -158 L200 12 H122 Z" fill="#f4f1e6"/>
+      <path d="M114 -158 L50 12 h64 Z" fill="#e2ddcb"/>
+      <g transform="translate(60 -46)">
+        <circle cx="0" cy="0" r="15" fill="#5b3a22"/>
+        <path d="M-16 18 q16 -12 32 0 l6 44 h-44 Z" fill="#0f1126"/>
+        <path d="M14 26 l40 -30" stroke="#5b3a22" stroke-width="9" stroke-linecap="round"/>
+      </g>
+      <path d="M-52 20 H236 L196 92 Q120 112 44 92 Z" fill="#8a4a22"/>
+      <path d="M-52 20 H236 l-12 22 H-38 Z" fill="#b3653a"/>
+      <path d="M20 46 H176" stroke="#f4f1e6" stroke-width="7" stroke-linecap="round" opacity="0.85"/>
+    </g>
+    <g fill="#e9f5c9" opacity="0.22"><ellipse cx="1000" cy="382" rx="180" ry="12"/><ellipse cx="900" cy="400" rx="110" ry="8"/></g>
+  </g>
+</svg>

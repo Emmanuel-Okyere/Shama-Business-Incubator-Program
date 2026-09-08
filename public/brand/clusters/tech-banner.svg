@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 560" fill="none" role="img" aria-label="A phone showing a rising chart, surrounded by circuitry and connected nodes">
+  <defs>
+    <linearGradient id="tbbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#131a4a"/><stop offset="0.6" stop-color="#2b2f8f"/><stop offset="1" stop-color="#4f46e5"/></linearGradient>
+    <linearGradient id="tbscreen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0f1126"/><stop offset="1" stop-color="#1c2150"/></linearGradient>
+    <clipPath id="tbclip"><rect width="1600" height="560"/></clipPath>
+  </defs>
+  <g clip-path="url(#tbclip)">
+    <rect width="1600" height="560" fill="url(#tbbg)"/>
+    <circle cx="1420" cy="120" r="220" fill="#8ab61a" opacity="0.10"/>
+
+    <g stroke="#8ab61a" stroke-width="3" opacity="0.5" fill="none" stroke-linecap="round">
+      <path d="M620 470 H760 V380 H860"/>
+      <path d="M600 200 H720 V270"/>
+      <path d="M1560 170 H1420 V254 H1330"/>
+      <path d="M1560 400 H1450 V470 H1330"/>
+      <path d="M1240 120 H1330 V190"/>
+    </g>
+    <g fill="#cfe94f">
+      <circle cx="620" cy="470" r="8"/><circle cx="860" cy="380" r="8"/>
+      <circle cx="600" cy="200" r="8"/><circle cx="720" cy="270" r="8"/>
+      <circle cx="1560" cy="170" r="8"/><circle cx="1330" cy="254" r="8"/>
+      <circle cx="1560" cy="400" r="8"/><circle cx="1330" cy="470" r="8"/>
+      <circle cx="1240" cy="120" r="8"/><circle cx="1330" cy="190" r="8"/>
+    </g>
+
+    <g transform="translate(1080 290)">
+      <rect x="-112" y="-186" width="224" height="372" rx="32" fill="#0b0e22"/>
+      <rect x="-101" y="-175" width="202" height="350" rx="26" fill="url(#tbscreen)"/>
+      <rect x="-28" y="-164" width="56" height="10" rx="5" fill="#4f46e5"/>
+      <g transform="translate(0 28)">
+        <g fill="#4f46e5">
+          <rect x="-72" y="-8" width="24" height="64" rx="6"/>
+          <rect x="-34" y="-38" width="24" height="94" rx="6"/>
+          <rect x="4" y="-68" width="24" height="124" rx="6"/>
+          <rect x="42" y="-104" width="24" height="160" rx="6" fill="#8ab61a"/>
+        </g>
+        <path d="M-62 -24 L-24 -54 L14 -82 L52 -122" stroke="#cfe94f" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="52" cy="-122" r="10" fill="#cfe94f"/>
+      </g>
+      <g fill="#ffffff" opacity="0.28">
+        <rect x="-72" y="-134" width="102" height="13" rx="6.5"/>
+        <rect x="-72" y="-110" width="62" height="11" rx="5.5"/>
+      </g>
+      <g fill="#ffffff" opacity="0.16">
+        <rect x="-72" y="122" width="144" height="11" rx="5.5"/>
+        <rect x="-72" y="144" width="96" height="11" rx="5.5"/>
+      </g>
+    </g>
+
+    <g transform="translate(1400 300)"><path d="M0 -46 L12 -12 L46 0 L12 12 L0 46 L-12 12 L-46 0 L-12 -12 Z" fill="#cfe94f"/></g>
+    <g transform="translate(830 190) scale(0.55)" opacity="0.85"><path d="M0 -46 L12 -12 L46 0 L12 12 L0 46 L-12 12 L-46 0 L-12 -12 Z" fill="#cfe94f"/></g>
+  </g>
+</svg>
