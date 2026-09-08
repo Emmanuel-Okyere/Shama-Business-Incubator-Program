@@ -28,7 +28,7 @@ export default async function InterestPage() {
         title="Be first to know when applications open"
         lead={`Applications for ${PROGRAMME.cohort} are closed. Leave your details and we will text you the moment the next cohort opens.`}
       image="/brand/photo-investor-readiness.webp"
-        imagePosition="left"
+        imagePosition="center"
       />
 
       <Section>

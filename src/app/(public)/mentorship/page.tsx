@@ -45,7 +45,7 @@ export default async function MentorshipPage() {
         }
         lead="Every one of the 100 participants is paired with an experienced mentor for the length of the programme — and keeps that relationship after graduation."
         image="/brand/photo-mentorship.webp"
-        imagePosition="right"
+        imagePosition="center"
       >
         <Button href="#become-a-mentor" size="lg">
           Become a mentor

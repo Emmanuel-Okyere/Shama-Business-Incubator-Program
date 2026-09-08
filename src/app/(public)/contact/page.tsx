@@ -20,7 +20,7 @@ export default function ContactPage() {
         title="Talk to the programme team"
         lead="Enquiries are routed to the right person on the team by category, and acknowledged by SMS if you leave a mobile number."
       image="/brand/photo-mentorship.webp"
-        imagePosition="left"
+        imagePosition="center"
       />
 
       <Section>

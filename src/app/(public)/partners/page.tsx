@@ -40,7 +40,7 @@ export default async function PartnersPage() {
         }
         lead={`The programme is putting ${ghs(TOTAL_FUNDING)} of grant capital into 20 businesses. Partners make that possible — and see exactly where it lands.`}
       image="/brand/photo-bootcamp.webp"
-        imagePosition="right"
+        imagePosition="center"
       >
         <Button href="#become-a-partner" size="lg">
           Sponsorship packages

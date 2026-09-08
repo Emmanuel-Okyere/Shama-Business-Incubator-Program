@@ -68,7 +68,7 @@ export default function PrivacyPage() {
         title="Privacy policy"
         lead="Plain language about what the programme collects, why, and who can see it."
       image="/brand/photo-mentorship.webp"
-        imagePosition="top"
+        imagePosition="center"
       />
 
       <Section>

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 560" fill="none" role="img" aria-label="A facilitator at a lectern addressing tiered rows of seated participants">
+  <defs>
+    <linearGradient id="trm" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#10142e"/><stop offset="1" stop-color="#1c2450"/></linearGradient>
+    <linearGradient id="tscr" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#cfe94f"/><stop offset="1" stop-color="#8ab61a"/></linearGradient>
+    <clipPath id="tclipH"><rect width="1600" height="560"/></clipPath>
+  </defs>
+  <g clip-path="url(#tclipH)">
+    <rect width="1600" height="560" fill="url(#trm)"/>
+    <circle cx="1330" cy="90" r="230" fill="#8ab61a" opacity="0.09"/>
+
+    <!-- acoustic panels -->
+    <g fill="#ffffff" opacity="0.07">
+      <rect x="700" y="70" width="52" height="150" rx="6"/>
+      <rect x="780" y="46" width="52" height="196" rx="6"/>
+      <rect x="860" y="86" width="52" height="126" rx="6"/>
+      <rect x="940" y="58" width="52" height="176" rx="6"/>
+    </g>
+
+    <!-- projection screen -->
+    <g transform="translate(1060 60)">
+      <rect x="0" y="0" width="420" height="248" rx="10" fill="#0b0e22" stroke="#ffffff" stroke-opacity="0.14" stroke-width="3"/>
+      <rect x="26" y="30" width="150" height="12" rx="6" fill="#cfe94f" opacity="0.85"/>
+      <rect x="26" y="56" width="96" height="9" rx="4.5" fill="#ffffff" opacity="0.3"/>
+      <g transform="translate(26 96)">
+        <rect x="0" y="66" width="34" height="52" rx="5" fill="url(#tscr)" opacity="0.75"/>
+        <rect x="48" y="38" width="34" height="80" rx="5" fill="url(#tscr)" opacity="0.85"/>
+        <rect x="96" y="14" width="34" height="104" rx="5" fill="url(#tscr)"/>
+        <rect x="144" y="-8" width="34" height="126" rx="5" fill="#cfe94f"/>
+        <path d="M14 60 L62 34 L110 12 L158 -12" stroke="#ffffff" stroke-opacity="0.55" stroke-width="4" fill="none" stroke-linecap="round"/>
+      </g>
+    </g>
+
+    <!-- tiered rows of participants -->
+    <g>
+      <g fill="#0a0d20" opacity="0.55"><rect x="600" y="372" width="1000" height="18" rx="9"/></g>
+      <g transform="translate(0 0)">
+        <!-- back row -->
+        <g opacity="0.55">
+          <g fill="#3c4680">
+            <circle cx="700" cy="300" r="17"/><circle cx="790" cy="296" r="17"/><circle cx="880" cy="300" r="17"/>
+            <circle cx="970" cy="296" r="17"/><circle cx="1060" cy="300" r="17"/><circle cx="1150" cy="296" r="17"/>
+            <circle cx="1240" cy="300" r="17"/><circle cx="1330" cy="296" r="17"/><circle cx="1420" cy="300" r="17"/>
+          </g>
+          <g fill="#2b3468">
+            <path d="M678 348 q22 -26 44 0 v18 h-44Z"/><path d="M768 344 q22 -26 44 0 v22 h-44Z"/>
+            <path d="M858 348 q22 -26 44 0 v18 h-44Z"/><path d="M948 344 q22 -26 44 0 v22 h-44Z"/>
+            <path d="M1038 348 q22 -26 44 0 v18 h-44Z"/><path d="M1128 344 q22 -26 44 0 v22 h-44Z"/>
+            <path d="M1218 348 q22 -26 44 0 v18 h-44Z"/><path d="M1308 344 q22 -26 44 0 v22 h-44Z"/>
+            <path d="M1398 348 q22 -26 44 0 v18 h-44Z"/>
+          </g>
+        </g>
+        <!-- desk -->
+        <rect x="600" y="366" width="1000" height="26" rx="6" fill="#8a7a5e" opacity="0.6"/>
+
+        <!-- front row -->
+        <g>
+          <g fill="#6b4a30">
+            <circle cx="740" cy="404" r="21"/><circle cx="860" cy="398" r="21"/><circle cx="980" cy="404" r="21"/>
+            <circle cx="1100" cy="398" r="21"/><circle cx="1220" cy="404" r="21"/><circle cx="1340" cy="398" r="21"/>
+            <circle cx="1460" cy="404" r="21"/>
+          </g>
+          <path d="M712 462 q28 -32 56 0 v34 h-56Z" fill="#cfe94f"/>
+          <path d="M832 456 q28 -32 56 0 v40 h-56Z" fill="#4f8fd0"/>
+          <path d="M952 462 q28 -32 56 0 v34 h-56Z" fill="#db4a3e"/>
+          <path d="M1072 456 q28 -32 56 0 v40 h-56Z" fill="#f7c948"/>
+          <path d="M1192 462 q28 -32 56 0 v34 h-56Z" fill="#8ab61a"/>
+          <path d="M1312 456 q28 -32 56 0 v40 h-56Z" fill="#4f8fd0"/>
+          <path d="M1432 462 q28 -32 56 0 v34 h-56Z" fill="#e0ab2b"/>
+        </g>
+        <rect x="600" y="470" width="1000" height="30" rx="6" fill="#a08c6a" opacity="0.75"/>
+      </g>
+    </g>
+
+    <!-- facilitator at the lectern -->
+    <g transform="translate(430 210)">
+      <path d="M-6 -14 L86 -60" stroke="#c9c9d4" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="88" cy="-62" r="9" fill="#c9c9d4"/>
+      <circle cx="0" cy="-58" r="34" fill="#5b3a22"/>
+      <path d="M-38 -30 q38 -26 76 0 l14 132 h-104 Z" fill="#f4f1e6"/>
+      <path d="M22 -26 l16 128 h-14 Z" fill="#f7c948"/>
+      <path d="M-38 -20 q38 -18 76 0" stroke="#a8202e" stroke-width="6" fill="none"/>
+      <rect x="-70" y="102" width="140" height="120" rx="10" fill="#d9dbe4"/>
+      <rect x="-70" y="102" width="140" height="20" rx="8" fill="#2a2f52"/>
+      <rect x="-52" y="132" width="104" height="62" rx="7" fill="#0b0e22"/>
+      <g stroke="#cfe94f" stroke-width="5" stroke-linecap="round">
+        <path d="M-36 178 v-18"/><path d="M-18 178 v-30"/><path d="M0 178 v-40"/><path d="M18 178 v-26"/><path d="M36 178 v-34"/>
+      </g>
+    </g>
+  </g>
+</svg>

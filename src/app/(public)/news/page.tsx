@@ -36,7 +36,7 @@ export default async function NewsPage() {
         title="What the programme is doing"
         lead="Announcements, success stories, event recaps and programme milestones."
       image="/brand/photo-branding.webp"
-        imagePosition="top"
+        imagePosition="center"
       />
 
       <Section>

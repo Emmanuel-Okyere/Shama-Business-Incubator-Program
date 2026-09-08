@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 560" fill="none" role="img" aria-label="A mentor and a founder either side of a lit data table, city skyline behind">
+  <defs>
+    <linearGradient id="mbg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d1430"/><stop offset="1" stop-color="#1b2a52"/></linearGradient>
+    <linearGradient id="mtab" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bfe0f2"/><stop offset="1" stop-color="#6ea8d8"/></linearGradient>
+    <clipPath id="mclip"><rect width="1600" height="560"/></clipPath>
+  </defs>
+  <g clip-path="url(#mclip)">
+    <rect width="1600" height="560" fill="url(#mbg)"/>
+
+    <!-- glazing + skyline -->
+    <g opacity="0.5">
+      <rect x="620" y="60" width="980" height="300" fill="#2a4a76" opacity="0.35"/>
+      <g fill="#16233f">
+        <rect x="660" y="180" width="70" height="180"/><rect x="750" y="140" width="56" height="220"/>
+        <rect x="826" y="200" width="80" height="160"/><rect x="926" y="120" width="60" height="240"/>
+        <rect x="1006" y="176" width="74" height="184"/><rect x="1100" y="146" width="58" height="214"/>
+        <rect x="1178" y="206" width="86" height="154"/><rect x="1284" y="160" width="62" height="200"/>
+        <rect x="1366" y="196" width="78" height="164"/><rect x="1464" y="150" width="60" height="210"/>
+      </g>
+      <g fill="#cfe94f" opacity="0.5">
+        <rect x="676" y="204" width="8" height="10"/><rect x="700" y="236" width="8" height="10"/>
+        <rect x="768" y="176" width="8" height="10"/><rect x="944" y="160" width="8" height="10"/>
+        <rect x="1022" y="212" width="8" height="10"/><rect x="1116" y="184" width="8" height="10"/>
+        <rect x="1300" y="200" width="8" height="10"/><rect x="1480" y="188" width="8" height="10"/>
+      </g>
+      <g stroke="#7fb0e0" stroke-width="4" opacity="0.5">
+        <path d="M760 60 V360"/><path d="M900 60 V360"/><path d="M1040 60 V360"/><path d="M1180 60 V360"/><path d="M1320 60 V360"/><path d="M1460 60 V360"/>
+      </g>
+    </g>
+
+    <!-- lit data table -->
+    <g transform="translate(560 360)">
+      <path d="M0 40 L1000 40 L900 200 L100 200 Z" fill="url(#mtab)"/>
+      <path d="M0 40 L1000 40 L988 56 L12 56 Z" fill="#0f1126" opacity="0.55"/>
+      <g opacity="0.85">
+        <g fill="#2f6ea8">
+          <rect x="180" y="92" width="26" height="52" rx="4"/><rect x="220" y="76" width="26" height="68" rx="4"/>
+          <rect x="260" y="60" width="26" height="84" rx="4"/><rect x="300" y="86" width="26" height="58" rx="4"/>
+        </g>
+        <g fill="#c0392b">
+          <rect x="620" y="98" width="26" height="46" rx="4"/><rect x="660" y="78" width="26" height="66" rx="4"/>
+          <rect x="700" y="62" width="26" height="82" rx="4"/>
+        </g>
+        <circle cx="470" cy="118" r="40" fill="none" stroke="#2f6ea8" stroke-width="16"/>
+        <circle cx="470" cy="118" r="40" fill="none" stroke="#cfe94f" stroke-width="16" stroke-dasharray="70 180"/>
+        <path d="M150 160 L340 132 L520 168 L760 130" stroke="#ffffff" stroke-opacity="0.5" stroke-width="4" fill="none" stroke-linecap="round"/>
+      </g>
+    </g>
+    <ellipse cx="1060" cy="400" rx="420" ry="60" fill="#cfe94f" opacity="0.10"/>
+
+    <!-- seated mentor, left -->
+    <g transform="translate(400 250)">
+      <circle cx="0" cy="0" r="40" fill="#5b3a22"/>
+      <path d="M-30 26 q30 -12 60 0 l-6 34 h-48 Z" fill="#d7d9de"/>
+      <path d="M-58 62 q58 -34 116 0 l16 118 h-148 Z" fill="#d7d9de"/>
+      <path d="M46 106 L150 148" stroke="#5b3a22" stroke-width="24" stroke-linecap="round"/>
+      <path d="M-38 -20 q38 -34 76 0 q-38 -12 -76 0Z" fill="#241407"/>
+    </g>
+
+    <!-- standing founder, right, pointing at the table -->
+    <g transform="translate(1180 190)">
+      <circle cx="0" cy="0" r="42" fill="#6b4a30"/>
+      <path d="M-44 -14 q44 -46 88 0 q-10 -30 -44 -30 t-44 30Z" fill="#241407"/>
+      <path d="M40 -8 q34 6 30 46 -18 4 -34 -14Z" fill="#241407"/>
+      <path d="M-56 60 q56 -32 112 0 l18 150 h-148 Z" fill="#f2ece0"/>
+      <g fill="#c9b9a0" opacity="0.9">
+        <circle cx="-24" cy="96" r="4"/><circle cx="6" cy="118" r="4"/><circle cx="36" cy="92" r="4"/>
+        <circle cx="-6" cy="152" r="4"/><circle cx="30" cy="164" r="4"/><circle cx="-38" cy="140" r="4"/>
+      </g>
+      <path d="M-52 92 L-176 196" stroke="#6b4a30" stroke-width="26" stroke-linecap="round"/>
+      <circle cx="-188" cy="204" r="14" fill="#6b4a30"/>
+      <rect x="44" y="88" width="86" height="60" rx="6" fill="#ffffff" transform="rotate(-8 87 118)"/>
+    </g>
+  </g>
+</svg>

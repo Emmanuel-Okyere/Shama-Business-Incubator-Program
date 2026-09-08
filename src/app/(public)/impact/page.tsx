@@ -72,7 +72,7 @@ export default async function ImpactPage() {
         }
         lead="Tangible, trackable impact — not participation numbers. Every figure below is maintained from the programme database as the cohort progresses."
       image="/brand/photo-branding.webp"
-        imagePosition="left"
+        imagePosition="center"
       />
 
       <Section>

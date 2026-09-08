@@ -3,11 +3,20 @@ import Link from "next/link";
 import { ChevronRight } from "lucide-react";
 import { Container } from "@/components/ui/Section";
 
+/**
+ * Which slice of the photograph the header keeps.
+ *
+ * The headers run 16:9 sources into a much wider box, so the two breakpoints
+ * crop on opposite axes: desktop trims about 150px off the height and nothing
+ * off the width, while mobile keeps only the middle third horizontally. Values
+ * are given for both axes so a choice means something at each size, and
+ * "center" is the safe default for these images because their subjects sit
+ * centrally.
+ */
 const POSITIONS = {
-  left: "20% center",
-  center: "center",
-  right: "80% center",
-  top: "center 22%",
+  center: "50% 50%",
+  high: "50% 30%",
+  low: "50% 70%",
 } as const;
 
 export function PageHero({
@@ -25,7 +34,7 @@ export function PageHero({
   lead?: React.ReactNode;
   image?: string;
   /** Which part of the photograph the header frames on. */
-  imagePosition?: "left" | "center" | "right" | "top";
+  imagePosition?: "center" | "high" | "low";
   crumbs?: { label: string; href: string }[];
   accent?: string;
   children?: React.ReactNode;

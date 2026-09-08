@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 560" fill="none" role="img" aria-label="A founder presenting at a flipchart of sticky notes to a seated circle">
+  <defs>
+    <linearGradient id="pbg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#101430"/><stop offset="1" stop-color="#232a50"/></linearGradient>
+    <clipPath id="pclip"><rect width="1600" height="560"/></clipPath>
+  </defs>
+  <g clip-path="url(#pclip)">
+    <rect width="1600" height="560" fill="url(#pbg)"/>
+    <circle cx="1280" cy="80" r="240" fill="#8ab61a" opacity="0.09"/>
+    <g stroke="#ffffff" stroke-opacity="0.07" stroke-width="4">
+      <path d="M700 40 V400"/><path d="M900 40 V400"/><path d="M1500 40 V400"/>
+    </g>
+
+    <!-- flipchart -->
+    <g transform="translate(880 70)">
+      <rect x="0" y="0" width="330" height="330" rx="8" fill="#f6f4ee"/>
+      <rect x="0" y="0" width="330" height="18" rx="6" fill="#c9c6bd"/>
+      <g>
+        <rect x="34" y="52" width="62" height="52" rx="5" fill="#f7c948" transform="rotate(-3 65 78)"/>
+        <rect x="122" y="46" width="62" height="52" rx="5" fill="#f26d8c" transform="rotate(2 153 72)"/>
+        <rect x="212" y="54" width="62" height="52" rx="5" fill="#7fd6c0" transform="rotate(-2 243 80)"/>
+        <rect x="34" y="132" width="62" height="52" rx="5" fill="#f26d8c" transform="rotate(2 65 158)"/>
+        <rect x="122" y="126" width="62" height="52" rx="5" fill="#cfe94f" transform="rotate(-3 153 152)"/>
+        <rect x="212" y="134" width="62" height="52" rx="5" fill="#f7c948" transform="rotate(3 243 160)"/>
+        <rect x="78" y="212" width="62" height="52" rx="5" fill="#7fd6c0" transform="rotate(-2 109 238)"/>
+        <rect x="168" y="216" width="62" height="52" rx="5" fill="#f26d8c" transform="rotate(2 199 242)"/>
+      </g>
+      <path d="M40 400 L120 330" stroke="#9aa0ad" stroke-width="7" stroke-linecap="round"/>
+      <path d="M290 400 L210 330" stroke="#9aa0ad" stroke-width="7" stroke-linecap="round"/>
+      <path d="M165 400 V330" stroke="#9aa0ad" stroke-width="7" stroke-linecap="round"/>
+    </g>
+
+    <!-- presenter -->
+    <g transform="translate(770 180)">
+      <circle cx="0" cy="0" r="40" fill="#6b4a30"/>
+      <path d="M-42 -12 q42 -44 84 0 q-8 -32 -42 -32 t-42 32Z" fill="#241407"/>
+      <path d="M34 -6 q30 10 24 48 -18 2 -30 -16Z" fill="#241407"/>
+      <path d="M-54 56 q54 -30 108 0 l10 96 h-128 Z" fill="#e2643c"/>
+      <g fill="#f3a07f" opacity="0.85">
+        <circle cx="-22" cy="88" r="4"/><circle cx="8" cy="106" r="4"/><circle cx="34" cy="82" r="4"/>
+      </g>
+      <path d="M50 84 L150 60" stroke="#6b4a30" stroke-width="24" stroke-linecap="round"/>
+      <circle cx="160" cy="58" r="13" fill="#6b4a30"/>
+      <rect x="-46" y="152" width="92" height="130" rx="8" fill="#171a30"/>
+    </g>
+
+    <!-- seated circle -->
+    <g>
+      <g transform="translate(430 330)">
+        <path d="M-70 100 q70 -34 140 0 l6 92 h-152 Z" fill="#f2ece0"/>
+        <circle cx="0" cy="52" r="38" fill="#6b4a30"/>
+        <path d="M-40 40 q40 -44 80 0 q-10 -30 -40 -30 t-40 30Z" fill="#241407"/>
+        <rect x="-96" y="150" width="92" height="52" rx="8" fill="#3f4a86"/>
+        <rect x="-58" y="126" width="86" height="52" rx="6" fill="#ffffff" opacity="0.9" transform="rotate(-6 -15 152)"/>
+      </g>
+      <g transform="translate(1330 320)">
+        <path d="M-72 104 q72 -36 144 0 l6 96 h-156 Z" fill="#e0ab2b"/>
+        <g stroke="#f6f0e2" stroke-width="7" opacity="0.75">
+          <path d="M-62 132 h124"/><path d="M-58 158 h116"/><path d="M-54 184 h108"/>
+        </g>
+        <circle cx="0" cy="54" r="39" fill="#5b3a22"/>
+        <path d="M-41 42 q41 -46 82 0 q-10 -32 -41 -32 t-41 32Z" fill="#241407"/>
+        <path d="M-62 118 L-152 78" stroke="#5b3a22" stroke-width="24" stroke-linecap="round"/>
+        <circle cx="-162" cy="74" r="13" fill="#5b3a22"/>
+      </g>
+      <g transform="translate(180 400)" opacity="0.9">
+        <path d="M-80 90 q80 -38 160 0 l8 100 h-176 Z" fill="#3f4a86"/>
+        <circle cx="0" cy="40" r="40" fill="#6b4a30"/>
+        <path d="M-42 28 q42 -46 84 0 q-10 -32 -42 -32 t-42 32Z" fill="#241407"/>
+      </g>
+    </g>
+
+    <!-- low table -->
+    <g transform="translate(800 470)">
+      <ellipse cx="0" cy="26" rx="250" ry="46" fill="#0b0e22" opacity="0.5"/>
+      <ellipse cx="0" cy="10" rx="250" ry="46" fill="#c8d2e0" opacity="0.35"/>
+      <rect x="-120" y="-10" width="110" height="20" rx="4" fill="#f6f4ee"/>
+      <rect x="30" y="-2" width="120" height="20" rx="4" fill="#f6f4ee"/>
+      <rect x="-30" y="-26" width="80" height="16" rx="4" fill="#db4a3e"/>
+    </g>
+  </g>
+</svg>

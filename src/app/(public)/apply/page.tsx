@@ -60,7 +60,7 @@ export default async function ApplyPage() {
         }
         lead={`100 seats across four clusters, an 8-week bootcamp, one-on-one mentorship and ${ghs(TOTAL_FUNDING)} in grant funding. Free to apply.`}
       image="/brand/photo-bootcamp.webp"
-        imagePosition="top"
+        imagePosition="center"
       >
         <div className="flex flex-wrap items-center gap-4">
           <Button href="/apply/start" size="lg">
