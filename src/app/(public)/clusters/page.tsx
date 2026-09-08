@@ -26,7 +26,8 @@ export default function ClustersPage() {
           </>
         }
         lead="The incubator is built around the sectors that actually drive the Shama economy, so training, mentors and facilitators are matched to how your industry makes money."
-      image="/brand/photo-investor-readiness.webp"
+      image="/brand/photo-mentorship.webp"
+        imagePosition="center"
       />
 
       <Section>

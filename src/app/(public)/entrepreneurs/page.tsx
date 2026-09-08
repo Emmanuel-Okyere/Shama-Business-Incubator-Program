@@ -59,6 +59,7 @@ export default async function EntrepreneursPage({
         title="Meet the businesses"
         lead={`The public directory of ${PROGRAMME.cohort}. Every profile is published only after the founder has consented to it.`}
       image="/brand/photo-branding.webp"
+        imagePosition="right"
       />
 
       <Section>

@@ -53,8 +53,10 @@ export function PageHero({
             alt=""
             fill
             priority
+            quality={86}
             sizes="100vw"
-            className="object-cover object-center"
+            className="object-cover"
+            style={{ objectPosition: POSITIONS[imagePosition] }}
           />
           <div className="absolute inset-0 bg-gradient-to-r from-ink-950 via-ink-950/80 to-ink-950/25" />
           <div className="absolute inset-0 bg-gradient-to-t from-ink-950/70 via-transparent to-ink-950/45" />

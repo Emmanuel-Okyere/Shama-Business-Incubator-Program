@@ -63,7 +63,9 @@ export interface Cluster {
   tint: string;
   /** Illustrated cluster scene used on cards and thumbnails. */
   art: string;
-  /** Photograph used full-bleed behind the cluster page header. */
+  /** Wide version of the same scene, composed to crop well in a page header. */
+  banner: string;
+  /** Photograph of the cluster, used where a real image suits better. */
   photo: string;
   icon: "craft" | "agric" | "fish" | "tech";
 }
@@ -92,6 +94,7 @@ export const CLUSTERS: Cluster[] = [
     accent: "#db000e",
     tint: "#fff1f1",
     art: "/brand/clusters/creative-craft.svg",
+    banner: "/brand/clusters/creative-craft-banner.svg",
     photo: "/brand/founder-craft.webp",
     icon: "craft",
   },
@@ -117,6 +120,7 @@ export const CLUSTERS: Cluster[] = [
     accent: "#75990f",
     tint: "#f6faec",
     art: "/brand/clusters/agric.svg",
+    banner: "/brand/clusters/agric-banner.svg",
     photo: "/brand/founder-agric.webp",
     icon: "agric",
   },
@@ -142,6 +146,7 @@ export const CLUSTERS: Cluster[] = [
     accent: "#0e7490",
     tint: "#effafc",
     art: "/brand/clusters/fisheries.svg",
+    banner: "/brand/clusters/fisheries-banner.svg",
     photo: "/brand/photo-shama-coast.webp",
     icon: "fish",
   },
@@ -167,6 +172,7 @@ export const CLUSTERS: Cluster[] = [
     accent: "#4f46e5",
     tint: "#f2f2fe",
     art: "/brand/clusters/tech.svg",
+    banner: "/brand/clusters/tech-banner.svg",
     photo: "/brand/photo-branding.webp",
     icon: "tech",
   },

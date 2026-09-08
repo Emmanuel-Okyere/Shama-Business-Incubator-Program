@@ -67,7 +67,8 @@ export default function PrivacyPage() {
         crumbs={[{ label: "Privacy", href: "/privacy" }]}
         title="Privacy policy"
         lead="Plain language about what the programme collects, why, and who can see it."
-      image="/brand/photo-shama-steps.webp"
+      image="/brand/photo-mentorship.webp"
+        imagePosition="top"
       />
 
       <Section>

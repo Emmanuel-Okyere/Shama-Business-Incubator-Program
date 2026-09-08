@@ -19,7 +19,8 @@ export default function ContactPage() {
         crumbs={[{ label: "Contact", href: "/contact" }]}
         title="Talk to the programme team"
         lead="Enquiries are routed to the right person on the team by category, and acknowledged by SMS if you leave a mobile number."
-      image="/brand/photo-shama-fort.webp"
+      image="/brand/photo-mentorship.webp"
+        imagePosition="left"
       />
 
       <Section>

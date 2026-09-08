@@ -56,6 +56,7 @@ export default async function EventsPage() {
         title="Where the programme happens"
         lead="Information sessions across the constituency, bootcamp sessions, pitch competitions, graduation and the quarterly Growth Labs."
       image="/brand/photo-bootcamp.webp"
+        imagePosition="left"
       />
 
       <Section>

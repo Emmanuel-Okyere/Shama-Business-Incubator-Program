@@ -38,6 +38,7 @@ export default function FundingPage() {
         }
         lead="Grant funding — not a loan, not equity — allocated on performance at the Ultimate Pitch before judges, investors and stakeholders."
       image="/brand/photo-investor-readiness.webp"
+        imagePosition="right"
       />
 
       <Section>
